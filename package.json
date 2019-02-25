@@ -1,0 +1,19 @@
+{
+  "name": "sitemap-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "anhnguyen@gumiviet.com",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "tsc",
+    "build:start": "npm run build && npm run start"
+  },
+  "dependencies": {
+    "puppeteer": "^1.12.2",
+    "url-parse": "^1.4.4"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^1.12.1"
+  }
+}
